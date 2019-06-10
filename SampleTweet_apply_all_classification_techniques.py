@@ -33,7 +33,7 @@ dataset = pd.read_csv('SampleTweets.csv',header = None )
 #check the shape of dataset
 print(dataset.shape)
 #print first 3 rows of datase
-dataset.head(3)
+print(dataset.head(3))
 
 
 # In[5]:
@@ -46,14 +46,14 @@ dataset.drop(columns = [1,3], inplace = True)
 # In[6]:
 
 
-dataset.head(3)
+print(dataset.head(3))
 
 
 # In[7]:
 
 
 # unique classes of the tweets
-dataset[0].unique()
+print(dataset[0].unique())
 
 
 # In[8]:
@@ -85,7 +85,7 @@ dataset.drop(columns = [0], inplace  = True)
 # In[11]:
 
 
-dataset.head(3)
+print(dataset.head(3))
 
 
 # In[12]:
